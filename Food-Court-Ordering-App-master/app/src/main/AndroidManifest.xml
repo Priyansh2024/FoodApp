@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodsetgo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".GlobalCart"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Owners.OrderDetails"></activity>
+        <activity android:name=".Payment" />
+        <activity android:name=".OrderList" />
+        <activity android:name=".Owners.EditFoodItem" />
+        <activity android:name=".Owners.EditDetailsOwner" />
+        <activity android:name=".Owners.AddProfilePhoto" />
+        <activity android:name=".restaurantMenu" />
+        <activity android:name=".Owners.Res_Home" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".EditDetails" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".CustomerMain" />
+        <activity android:name=".SignUp1" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".login" />
+        <activity android:name=".TimelineUser" />
+        <activity android:name=".signup" />
+        <activity android:name=".Owners.additem" />
+        <activity android:name=".Owners.OwnerMain" />
+        <activity android:name=".Owners.RegistrationRestaurant" />
+        <activity android:name=".Owners.RegistrationRestaurant1" />
+        <activity android:name=".Cart" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>
