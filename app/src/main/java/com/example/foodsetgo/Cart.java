@@ -123,7 +123,8 @@ public class Cart extends AppCompatActivity {
 
                 final AlertDialog alert = builder.create();
                 //Setting the title manually
-                alert.setTitle("Order Placed Succesfully");
+                alert.setTitle("Order Placed Succesfully" + "\n" +
+                        "It's time for payment");
                 alert.show();
                 alert.setIcon(R.drawable.ic_done_black_24dp);
                 final Timer t = new Timer();
@@ -206,7 +207,7 @@ public class Cart extends AppCompatActivity {
 
 
                         finish();
-                        startActivity(new Intent(Cart.this,UserHome.class));
+                        startActivity(new Intent(Cart.this,PaymentActivity.class));
                     }
                 },2000);
 

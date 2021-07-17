@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/gray_8ba6c1">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,31 +42,29 @@
         android:textSize="20sp"
         android:textColor="#000000"
         android:layout_below="@id/contact"/>
+
     <Button
+        android:id="@+id/ChangePwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/EditProfile"
-        android:layout_centerHorizontal="true"
-        android:text="Change Password"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/ChangePwd"
-        />
+        android:layout_marginBottom="12dp"
+        android:text="Change Password" />
+
     <Button
+        android:id="@+id/EditProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/log_out"
-        android:layout_centerHorizontal="true"
-        android:text="Edit Details"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/EditProfile"
-        />
+        android:layout_marginBottom="11dp"
+        android:text="Edit Details" />
+
     <Button
+        android:id="@+id/log_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/log_out"
-        android:text="Sign out"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="102dp"
+        android:text="Sign out" />
 
 </RelativeLayout>

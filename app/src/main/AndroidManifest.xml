@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Owners.OrderDetails"></activity>
+        <activity android:name=".PaymentActivity"></activity>
+        <activity android:name=".Owners.OrderDetails" />
         <activity android:name=".OrderList" />
         <activity android:name=".Owners.EditFoodItem" />
         <activity android:name=".Owners.EditDetailsOwner" />
@@ -27,7 +28,8 @@
         <activity android:name=".SignUp1" />
         <activity android:name=".UserProfile" />
         <activity android:name=".login" />
-        <activity android:name=".TimelineUser"
+        <activity
+            android:name=".TimelineUser"
             tools:ignore="Instantiatable" />
         <activity android:name=".signup" />
         <activity android:name=".Owners.additem" />

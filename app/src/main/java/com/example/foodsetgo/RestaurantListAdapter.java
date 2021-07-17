@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -97,7 +98,7 @@ public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAd
 
         public TextView RestName;
         public ImageView imageView;
-        public CardView card;
+        public LinearLayout card;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             RestName =itemView.findViewById(R.id.RestName);
